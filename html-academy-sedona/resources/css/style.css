@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    text-transform: uppercase;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;    
+}
+
+.site-background {
+    width: 1280px;
+    margin: auto;
+
+    background-color: #f1f1f1;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 40px #777676;
+}
+
+.main-header {
+    position: relative;
+}
+
+.nav-list {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+
+    padding: 10px 0;
+    margin: 0;
+    
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-header img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -68px;
+
+}
+
+.town-perspective {
+    background-color: #ffffff;
+    background-image: url(/resources/img/background_sedona_bottom.png),  url(/resources/img/background_sedona.png);   
+    background-position: bottom;
+    background-repeat: no-repeat;    
+    height: 720px;
+}
+
+
+
+.town-review{
+    width: 100%;
+    text-align: center;
+    height: 215px;
+}
+
+.town-review strong {
+    font-size: 21px;
+    line-height: 26px;
+    
+    display: block;
+    padding-top: 55px;
+    width: 435px;
+    margin: auto;
+}
+
+.town-review p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.feature-list {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+
+}
+
+.feature-item {
+    text-align: center;
+    color: #ffffff;
+
+    background-color: #81b3d2;
+
+    box-sizing: border-box;
+    padding: 60px 60px;    
+    width: 400px;
+    height: 260px;
+}
+
+.feature-item strong {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.feature-item p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.service-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.service-list li {    
+    text-align: center;
+    width: 400px;
+    height: 330px;
+
+    background-repeat: no-repeat;
+    background-position: 50% 60px;
+     
+}
+
+.service-item h3 {
+    margin-top: 160px;
+}
+
+.service-item p {
+    font-size: 14px;
+}
+
+.service-item-1 {
+    background-image: url(/resources/img/service-house.svg);    
+}
+
+.service-item-2 {
+    background-image: url(/resources/img/service-eat.svg);
+}
+
+.service-item-3 {
+    background-image: url(/resources/img/serivice-gift.svg);
+}
+
+.feature-list .item-3,
+.feature-list .item-4,
+.feature-list .item-5 {
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.booking {
+    position: relative;
+}
+
+.booking-header {
+    height: 290px;
+    text-align: center;
+
+    box-sizing: border-box;
+    padding: 60px;
+
+    background-color: #81b3d2;
+}
+
+.booking-header strong {   
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.booking-header p {
+
+    font-size: 14px;
+    line-height: 24px;
+
+    width: 440px;
+    margin: 35px auto
+    
+}
+
+.booking-form {   
+    padding: 0;
+    background-color: #ffffff;
+
+
+    position: absolute;
+    left: 50%;
+    margin-left: -285px;
+    top: 205px;
+
+    width: 570px;
+    height: 480px;
+    box-sizing: border-box;
+
+}
+
+.booking-form h3 {
+    text-align: center;
+    font-size: 21px;
+    line-height: 26px;    
+
+    padding: 30px;
+    height: 85px;
+    box-sizing: border-box;
+    margin: 0;
+
+    background-color: #766357;
+    
+}
+
+.booking-input-list {
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+    
+}
+
+.booking-input-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.booking-input-item input { 
+    
+    padding-left: 20px;
+    width: 345px;
+    height: 40px;
+    border: none;
+
+    font: inherit; 
+
+    background-color: #f1f1f1;
+}
+
+.booking-form .adults,
+.booking-form .kids {
+    width: 115px;
+} 
+
+.booking-input-item label {    
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    padding-bottom: 30px;       
+}    
+
+/* .booking-form  input {
+    font: inherit; 
+    background-color: #f1f1f1;
+
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 28px;
+    padding-left: 10px;
+    width: 345px;
+    height: 40px;
+    border: none;
+}
+
+.booking-form .adults,
+.booking-form .kids {
+    width: 115px;
+} */
+
+.booking-form button {
+    margin-top: 20px;
+    font: inherit;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 26px;
+
+    width: 100%;
+    height: 60px;
+    border: none;
+
+    background-color: #81b3d2;
+
+
+}

@@ -1,0 +1,23 @@
+header {
+    background-color: thistle;
+    color: white;
+}
+
+section {
+    display: flex;
+    background-color: antiquewhite;
+    font-size: 20px;
+   
+}
+
+article {
+    border: 10px solid white;
+    padding:  20px;
+    flex: 1 200px;
+}
+
+article:nth-of-type(3) {
+    flex: 10 100px;
+
+}
+
